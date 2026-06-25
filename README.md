@@ -1,22 +1,14 @@
 # 🔍 Username OSINT Checker
 
-SOC beginner tool — username ko 15+ websites pe search karta hai.
+A beginner SOC (Security Operations Center) tool that searches 
+a username across 15+ websites to find online presence.
 
-## Kya karta hai
-- Username input lo
-- GitHub, Reddit, Instagram, Twitter aur aur bhi sites check karo
-- Color coded results dikhao
-- Report file save karo
+## What it does
+- Takes a username as input
+- Checks GitHub, Reddit, Instagram, Twitter, TikTok and more
+- Shows color-coded results (Found / Not Found)
+- Saves a report txt file for documentation
 
-## Kaise chalao
+## How to run
 pip install requests
-python username_checker.py
-
-## Yeh sikha
-- Python requests library
-- HTTP status codes
-- OSINT techniques
-- File handling
-
-## Note
-Sirf authorized testing ke liye — ethical use only.
+python
